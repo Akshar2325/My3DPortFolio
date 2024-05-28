@@ -15,14 +15,16 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  // meta,
+  // starbucks,
+  // tesla,
+  // shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  fortinet,
+  bharatintern,
 } from "../assets";
 
 export const navLinks = [
@@ -33,6 +35,14 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "tech",
+    title: "My-Technologies",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -46,7 +56,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "MERN Stack Developer",
     icon: mobile,
   },
   {
@@ -54,7 +64,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Machine Learning Developer",
     icon: creator,
   },
 ];
@@ -112,61 +122,62 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Network Security Associate",
+    company_name: "Fortinet",
+    icon: fortinet,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Sep 2023 - Oct 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Gained hands-on experience in the field of network security through an immersive virtual internship program offered by EduSkills and Fortinet.",
+      "Conducted comprehensive vulnerability assessments and penetration testing.",
+      "Demonstrated the ability to identify, analyze, and mitigate network vulnerabilities.",
+      "Enhanced technical skills and theoretical knowledge to effectively protect and secure computer networks.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Data Science Intern",
+    company_name: "Bharat Intern",
+    icon: bharatintern,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sep 2023 - Nov 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Trained in HTML, CSS, and JavaScript through a one-month internship program.",
+      "Completed three projects within given deadlines, showcasing the application of newly learned skills.",
+      "Developed skills in data analysis and visualization.",
+      "Collaborated with team members to solve complex problems and meet project objectives.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [

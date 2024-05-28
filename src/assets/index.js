@@ -25,6 +25,8 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import fortinet from "./company/FortinetLogo.png";
+import bharatintern from "./company/bharat_intern_logo.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +61,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  fortinet,
+  bharatintern,
 };

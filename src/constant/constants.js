@@ -15,6 +15,10 @@ import {
   git,
   figma,
   docker,
+  mysql,
+  java,
+  python,
+  php,
   // meta,
   // starbucks,
   // tesla,
@@ -122,7 +126,22 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
-  
+  {
+    name:"mysql",
+    icon:mysql,
+  },
+  {
+    name:"java",
+    icon:java,
+  },
+  {
+    name:"python",
+    icon:python,
+  },
+  {
+    name:"php",
+    icon:php,
+  }, 
 ];
 
 const experiences = [
